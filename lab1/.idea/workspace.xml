@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28f7438d-16a4-4bd3-af0c-8225a3470b91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lab1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/ex3.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/ex3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/ex4.py" afterDir="false" />
-    </list>
+    <list default="true" id="28f7438d-16a4-4bd3-af0c-8225a3470b91" name="Default Changelist" comment="Double first" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +19,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,6 +30,21 @@
       <option name="presentableId" value="Default" />
       <updated>1613404999431</updated>
     </task>
+    <task id="LOCAL-00001" summary="Double first">
+      <created>1613405469143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613405469143</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Double first">
+      <created>1613405514710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613405514710</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -47,5 +57,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Double first" />
+    <option name="LAST_COMMIT_MESSAGE" value="Double first" />
   </component>
 </project>
