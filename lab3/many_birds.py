@@ -275,10 +275,7 @@ def cloud(x0, y0, surface):
     :param surface: поверхность для облака
     :return: функция ничего не возвращает
     """
-    # определение цвета облака
-    if True:
-        cloudcolor = 'white'
-    # опишем круги, из которых состоит облако
+    cloudcolor = 'white'
     pygame.draw.circle(surface, cloudcolor, (x0 + 20, y0 + 30), 20)
     pygame.draw.circle(surface, cloudcolor, (x0 + 55, y0 + 35), 35)
     pygame.draw.circle(surface, cloudcolor, (x0 + 75, y0 + 45), 25)
@@ -353,6 +350,12 @@ while not done:
     print_fishes()
 
     move_cloud(counter, 4)
+
+    move_cloud(counter, 8)
+
+    move_cloud(counter, 16)
+
+    move_cloud(counter, 25)
 
     pygame.display.update()
 
