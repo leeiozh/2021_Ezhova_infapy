@@ -3,8 +3,6 @@ import numpy as np
 import pygame.draw as draw
 from math import sin
 
-day = True
-
 
 def draw_background(surf, length, height):
     """
@@ -272,16 +270,14 @@ def print_fishes():
 def cloud(x0, y0, surface):
     """
     Функция описывает отрисовку облака на экране
-    :param x0: координата левого верхнего угла поверхности облака по оХ
-    :param y0: координата левого верхнего угла поверхности облака по оУ
-    :param surface: поверхность, на которой отриссовывается облако
-    :return:
+    :param x0: координата x левого верхнего угла облака
+    :param y0: координата y левого верхнего угла облака
+    :param surface: поверхность для облака
+    :return: функция ничего не возвращает
     """
     # определение цвета облака
-    if day:
+    if True:
         cloudcolor = 'white'
-    else:
-        cloudcolor = (3, 10, 75)
     # опишем круги, из которых состоит облако
     pygame.draw.circle(surface, cloudcolor, (x0 + 20, y0 + 30), 20)
     pygame.draw.circle(surface, cloudcolor, (x0 + 55, y0 + 35), 35)
@@ -292,10 +288,10 @@ def cloud(x0, y0, surface):
 
 def move_cloud(counter_, speed):
     """
-    Функция отвечает за перемещение облака
-    :param counter_: счетчик тиков
-    :param speed: скорость движения облака
-    :return: плывущее облачко
+    Функция перемещает облако
+    :param counter_: счетчик часов
+    :param speed: скорость  облака
+    :return: функция ничего не возвращает
     """
     cloud_ = pygame.Surface((100, 80))
     cloud_.set_colorkey('black')
