@@ -1,3 +1,3 @@
-Hello! There you can find my python labs. I hope you will be able to understand the numbering and names) 
+Hello! It is my old repository for my python labs. You can find new repository in folder 2021_Ezhova_pythonlabs .
 
 All the best, LeeIozh.
